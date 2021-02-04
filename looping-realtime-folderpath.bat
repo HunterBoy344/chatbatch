@@ -1,5 +1,5 @@
 @echo off
-set /p "driveletter=Enter File Stream drive letter: "
+set /p "driveletter=Enter drive letter: "
 set /p "chatname=Enter chat folder path in quotations: "
 for /f %%t in ('cd') do set currentlocation=%%t
 MODE 60,20
