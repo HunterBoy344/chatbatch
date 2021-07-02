@@ -11,5 +11,5 @@ exit
 )
 cls
 type chat.txt
-timeout 1 >nul
+ping 127.0.0.1 -n 1 -w 500> nul
 goto loop
